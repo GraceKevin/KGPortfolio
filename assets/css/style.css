@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 25px 10px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.section-title {
+    font-size: 40px;
+    border-bottom: 3px solid;
+    margin-bottom: 16px;
+    font-style: oblique;
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    float: right;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 2vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+header h2 {
+    position: absolute;
+    left:0; top: 92px; bottom: 0;
+    width: 178px;
+}
+
+/* ABOUT ME */
+.about-me {
+    text-align: center;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+/* WORK */
+
+.work {
+    background-color: ;
+    padding-top: 0;
+    float: right;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 70%;
+    margin: 0;
+    float: right;
+}
+
+.Project {
+    position: relative;
+    width: 35%;
+    margin: 4px 0;
+    opacity: .50;
+    float: right;
+}
+
+.Project:hover {
+    opacity: 1;
+}
+
+.Project img {
+    object-fit: contain;
+    width: 100%;
+    border: solid 1.5px;
+    border-radius: 5%;
+}
+
+.Project-text {
+
+}
+
+.Project-text h3 {
+
+}
+
+.Project-text p {
+
+}
+
+/* FOOTER */
+
+footer {
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+footer h2 {
+    font-size: 15px;
+    margin: 0;
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
