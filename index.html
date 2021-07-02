@@ -3,23 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Kevin Grace</title>
+        <!-- Font downloaded at https://www.downloadfonts.io/proxima-nova-font-family-free/ -->
+        <style>
+            @font-face {
+                font-family:  Proxima;
+                src: url(./assets/fonts/Proxima\ Font/);
+            }
+        </style>
+        <title>Kevin Grace Portfolio</title>
     </head>
     <body>
         
         <!-- Navigation from header to different blocks -->
         <header>
-            <h1>KG Portfolio</h1>
+            <h1>
+                <a href="/"></a>KG</a>
+            </h1>
             <nav>
                 <ul>
                     <li>
                         <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="#work">Work</a>
+                        <a href="#work">Projects</a>
                     </li>
                     <li>
-                        <a href="#contact-me">Contact Me</a>
+                        <a href="#contact">Contact Me</a>
                     </li>
                     <li>
                         <a href="#resume">Resume</a>
@@ -28,21 +37,23 @@
             </nav>
         </header>
         <!--End Navigation-->
-        
+
+        <div class="portfolio">
         <!--About Me Block-->
-        <section id="about-me" class="intro">
-            <div class="about-me">
-                <h2 class="section-title">About Me</h2>
+        <section id="about" class="intro">
+            <h2 class="section-title">About Me</h2>
+            <div class="flex-row">
                 <p>
-                    Here is where to explain about myself. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Molestiae, maxime sit consectetur doloribus nemo earum tempore dicta! Laborum doloremque odit recusandae, veniam fuga labore, nostrum officia deserunt maxime iste ad?
                 </p>
             </div>
         </section>
 
         <!--Work Block-->
         <section id="work" class="work">
-            <h2 class="section-title">Work</h2>
-            <div class="flex">
+            <h2 class="section-title-2">Completed Projects</h2>
+            <div class="flex-row">
                 <div class="Project">
                     <a href="https://gracekevin.github.io/run-buddy/" target="_blank">
                     <img src="./assets/images/run-buddy.jpeg" alt="Run Buddy Screenshot"></a>
@@ -90,25 +101,36 @@
         </section>
         
         <!--Contact Me Block-->
-        <section id="contact-me" class="contact">
-            <h2 class="section-title">Contact Me</h2>
-            <div class="contact-me-flex">
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-flex">
                 <div class="contact-text">
-                    <h3>Phone</h3>
+                    <!--h3>Phone</h3>-->
+                    <a href="tel:4075066116"><p>407-506-6116</p></a>
                 </div>
                 <div class="contact-text">
-                    <h3>Email</h3>
-                </div>
-                <div class="contact-text">
-                    <h3>Github</h3>
+                    <!--<h3>Email</h3>-->
+                    <a href="mailto:kgrace90@yahoo.com"><p>kgrace90@yahoo.com</p></a>
                 </div>
             </div>
         </section>
 
         <!--Footer-->
         <footer>
-            <h2>Created by Kevin Grace</h2>
+            <h2>© Kevin Grace</h2>
+            <div class="footer-flex">
+                <!--  Linkedin Link -->
+                <a href="https://www.linkedin.com/in/kevin-grace-2a780267/" target="_blank">
+                    <!-- https://brand.linkedin.com/downloads-->
+                    <img src="./assets/images/LI-Logo.png" alt="Linkedin logo."/>
+                </a>
+                <!-- https://github.com/logos for Logo download -->
+                <a href="https://github.com/GraceKevin" target="_blank">
+                    <!-- https://www.freepnglogos.com/images/512x512-logo-27148.html -->
+                    <img src="./assets/images/GitHub-Mark-Light-120px-plus.png" class="github" alt="Github." />
+                </a>
+            </div>
         </footer>
-    
+    </div>
     </body>
 </html>
